@@ -5,14 +5,14 @@ import sys
 import random
 
 # Number of simluations to run
-N = 100000
+N = 1000
 
 
 def main():
 
     # Ensure correct usage
     if len(sys.argv) != 2:
-        sys.exit("Usage: python tournament.py FILENAME")
+        sys.exit("Usage: python index.py file.cvs \n The cvs file should contain the recent FIFA ratings")
 
     teams = []
     # TODO: Read teams into memory from file
